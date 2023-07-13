@@ -72,7 +72,6 @@ public class SocialGolferProblem {
     }
 
     public static void main(String[] args) {
-        //weekOneInitializationWithTheGivenValues(state);
         for (int i = 1; i <= 5; i++) {
             List<List<Integer>> week = generateWeek();
             printWeek(week, i);
